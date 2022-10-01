@@ -1,11 +1,11 @@
 num1 = int(input('Enter first number->'))
 num2 = int(input('Enter second number->'))
-temp = ''
 
 if num1 > num2:
-    num1 = temp
-    num2 = num1
-    temp = num2
+    temp = num1
+    num1 = num2
+    num2 = temp
+
 number = num1
 
 if number % 2 == 0:
