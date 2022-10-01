@@ -5,8 +5,10 @@ if num1 > num2:
     temp = num1
     num1 = num2
     num2 = temp
+number = num2
 
-while num1>num2:
-    print(f'num1 = {number}')
-    num1-=1
- print(f'number = {number}. Робота циклу завершена')
+while number > num1:
+    print(f'{number}5')
+    number -= 1
+else:
+    print(f'{number}')
